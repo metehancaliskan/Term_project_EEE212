@@ -1,0 +1,4 @@
+# Term_project_EEE212
+This Project was made by using freedom kl25z board. C codes were wrote with KEIL uVision 5 IDE.
+Description: This project is basically lighthouse. There is a 2 mode in the code. First part, lighthouse 180 degrees around its axis by controlling joystick. There are 2 lasers positioned opposite each other on the lighthouse to scan its entire surroundings. In this way, the lighthouse can scan 360 degrees.
+Second part, The ultrasonic sensor on the lighthouse first turns 180, then the lighthouse turns 180 degrees around itself. In this way, it provides a 360-degree automatic scanning. If the sensor sees an object, the buzzer beeps and the laser stays on the object. The buzzer beeps as long as the sensor sees the object. When the object moves away, the lighthouse continues to scan from where it left off.
